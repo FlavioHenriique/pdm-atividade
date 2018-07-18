@@ -41,11 +41,11 @@
 
     <EditText
         android:id="@+id/codigo"
-        android:layout_width="103dp"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="63dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="86dp"
         android:ems="10"
         android:hint="código"

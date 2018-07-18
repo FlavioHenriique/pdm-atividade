@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Usuário atualizado",
                             Toast.LENGTH_SHORT).show();
                     codigo.setText("");
+                    btSalvar.setText("SALVAR");
                 }
                 nome.setText("");
                 idade.setText("");
