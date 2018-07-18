@@ -4,12 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:name="com.orm.SugarApp"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+            <meta-data android:name="DATABASE" android:value="pdmSugar.db" />
+            <meta-data android:name="VERSION" android:value="1" />
+            <meta-data android:name="QUERY_LOG" android:value="true" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
